@@ -6,14 +6,14 @@ import { styMargin } from './styles';
 
 function CountContainer() {
   const { days, hours, minutes, seconds, timeHasRunOut, isEventOver } = useDateCountdown();
-  const finalText = isEventOver ? 'SUDAH' : 'SEDANG';
+  const finalText = isEventOver ? 'YA' : 'ACTUALMENTE';
 
   if (timeHasRunOut)
     return (
       <>
         <div className="row">
           <div className="col-md-12" style={{ fontSize: '20px' }}>
-            {`ACARA ${finalText} BERLANGSUNG!`}
+            {`EL EVENTO ${finalText} EN MARCHA!`}
           </div>
         </div>
 

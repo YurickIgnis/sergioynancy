@@ -10,20 +10,20 @@ function LocationSection() {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
-              <h2 className="main-font">Lokasi Acara</h2>
+              <h2 className="main-font">xxxxxxx</h2>
               <p className="sub-title">
                 <a
                   href={GOOGLE_MAPS_LINK}
-                  title="Click untuk melihat peta di Google Maps"
+                  title="Google Maps"
                   target="_blank"
                   rel="noreferrer"
                   style={{ color: '#828282' }}
                 >
-                  <strong>Baleendah, Bandung</strong>
+                  <strong>xxxx, xxxx</strong>
                 </a>{' '}
                 <br />
-                Jl. Laswi Cangkring RT/RW 05/07
-                kel. Jelekong, kec. Baleendah, kab. Bandung
+                Jl. xxxx RT/RW 05/07
+                xxxxx.xxxxx
               </p>
             </div>
           </div>
@@ -38,7 +38,7 @@ function LocationSection() {
                 allowFullScreen
                 aria-hidden="false"
                 tabIndex="0"
-                title="Google Maps - Arin & Miftah Wedding Party"
+                title="Google Maps - Sergio & nancy"
               ></iframe>
             </div>
             <div className="row">

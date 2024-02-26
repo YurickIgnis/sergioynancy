@@ -82,15 +82,15 @@ function SendWishes( {urlCode, urlName, urlType} ) {
 
   return (
     <div>
-      <h2 className="title">Say Something For Us</h2>
-      <h3 className="title__sub">Arin & Miftah Wedding</h3>
+      <h2 className="title">Di algo de nosotros</h2>
+      <h3 className="title__sub">Sergio & Nancy Wedding</h3>
 
       <Fragment>
         <form>
           <div className="row">
             <div className="col-md-4 col-md-offset-4">
               <div class="form-group">
-                <label for="name">Nama</label>
+                <label for="name">Nombre</label>
                 <input
                   value={name}
                   onChange={handleSetName}
@@ -101,7 +101,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                 ></input>
               </div>
               <div class="form-group">
-                <label for="image">Foto (Optional)</label>
+                <label for="image">Foto (opcional)</label>
                 <input
                   value={imageFilename}
                   onChange={handleSetImage}
@@ -114,17 +114,17 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                 <img id="showImage" src={malePhoto} alt="foto" width="30%" height="30%"/>
               </div>
               <div class="form-group">
-                <label for="infoName">Keterangan</label>
+                <label for="infoName">Información</label>
                 <input
                   value={infoName}
                   onChange={handleSetInfoName}
                   type="text"
                   class="form-control"
-                  placeholder="misal: Teman SMP Arin"
+                  placeholder="por ejemplo: amigo de la escuela secundaria de sergio"
                   required
                 ></input>
               </div>
-              <label for="wishes">Pesan</label>
+              <label for="wishes">Mensaje</label>
               <br></br>
               <div class="form-group custom-emoji">
                 <textarea
@@ -133,7 +133,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                     rows="5"
                     cols="60"
                     class="form-control"
-                    placeholder="Tulis pesan"
+                    placeholder="Escribe un mensaje"
                     required
                 ></textarea>
                 <EmojiMartPicker data={data} onChange={handleAddEmoji}>
@@ -142,12 +142,12 @@ function SendWishes( {urlCode, urlName, urlType} ) {
               </div>
               <br></br>
               <button type="reset" class="btn btn-primary" onClick={() => handleWishesData()}>
-                Kirim
+              Enviar
               </button>
               <br></br>
               <br></br>
               <Link to={`/?type=${urlType}&to=${urlName}&code=${urlCode}`}>
-                <button className="btn primary">{`< Kembali ke Homepage`}</button>
+                <button className="btn primary">{`< Regresar a la página principal`}</button>
               </Link>
               <br></br>
               <br></br>
@@ -155,10 +155,10 @@ function SendWishes( {urlCode, urlName, urlType} ) {
               <div class="tdata additional">
                 <ul style={{ paddingLeft: '16px' }}>
                   <li>
-                    Pesan ini akan tampil di halaman depan, tapi tidak realtime (ada jeda waktu)
+                    XXXXXXXXXXXXXXXXXXxx
                   </li>
                   <li>
-                    Ukuran foto tidak perlu presisi, karna akan menyesuaikan
+                    XXXXXXXXXXXXXXXXXXXXXXXXX
                   </li>
                 </ul>
                 <br />

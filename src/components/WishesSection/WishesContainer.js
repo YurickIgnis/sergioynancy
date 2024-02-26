@@ -64,18 +64,18 @@ function WishesContainer( {codeLink} ) {
     <div className="wrap-testimony">
       {renderWishlist()}
       <div css={styButtonWrapper}>
-        <button className="btn btn-sm button-nav" onClick={() => handleSetActive(false)}>{`< Sebelumnya`}</button>
-        <button className="btn btn-sm button-nav" onClick={() => handleSetActive(true)}>{`Selanjutnya >`}</button>
+        <button className="btn btn-sm button-nav" onClick={() => handleSetActive(false)}>{`< Anterior`}</button>
+        <button className="btn btn-sm button-nav" onClick={() => handleSetActive(true)}>{`Siguiente >`}</button>
       </div>
       <br></br>
       <div css={styButtonWrapper}>
         <Link to={`/send-wishes?${codeLink}`}>
-          <button className="btn btn-default btn-block">Tulis Pesan</button>
+          <button className="btn btn-default btn-block">Escribe un mensaje</button>
         </Link>
       </div>
       <br></br>
       <div css={styButtonWrapper}>
-        <span align="center">Note: Bagi yang merasa beberapa hari lalu sudah mengirimkan pesan tapi belum muncul, silahkan untuk kirim ulang dikarenakan ada kesalahan teknis 🙏</span>
+        <span align="center">Nota: Para aquellos que sienten que enviaron un mensaje hace unos días pero no ha aparecido, por favor reenvíelo debido a un error técnico. 🙏</span>
       </div>
       </div>
   );

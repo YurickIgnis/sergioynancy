@@ -10,12 +10,10 @@ function PhotoSection() {
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">#ArinMiftah</h2>
+              <h2 className="main-font">#XXXXX</h2>
               <p className="sub-title">
-                "And of His signs is that He created for you from yourselves mates that you may find tranquility in
-                them; and He placed between you affection and mercy. Indeed in that are signs for a people who give
-                thought" <br />
-                (Ar-Rum 30:21).
+                "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde " <br />
+                (Ar-Rum 20:21).
               </p>
             </div>
           </div>

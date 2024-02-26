@@ -1,13 +1,15 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
-import Bride from '@assets/images/p-arin.jpg';
-import Groom from '@assets/images/p-miftah.jpg';
+// import Bride from '@assets/images/p-arin.jpg';
+// import Groom from '@assets/images/p-miftah.jpg';
+import Bride from '@assets/images/blanco.jpg';
+import Groom from '@assets/images/blanco.jpg';
 
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = 'Minggu, 11 September 2022';
+  const finalSubtitle = 'Mayo, X X 2024';
 
   return (
 	<Fragment>
@@ -15,12 +17,10 @@ function HelloSection({ isInvitation }) {
 		<div className="container">
 		  <div className="row">
 			<div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-			  <h2 className="main-font">Assalamualaikum Wr. Wb</h2>
+			  <h2 className="main-font">Lorem</h2>
 			  <h3 className="sub-title hs">{finalSubtitle}</h3>
 			  <p className="info">
-				Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk
-				rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan
-				keberkahan.
+			  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde 
 			  </p>
 			</div>
 		  </div>
@@ -30,9 +30,9 @@ function HelloSection({ isInvitation }) {
 				<img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
 			  </div>
 			  <div className="desc-groom">
-				<h3 className="main-font">Arini Dewi Al-Faaz</h3>
+				<h3 className="main-font">Nancy</h3>
 				<p className="parent-name parent-name__top">
-				  Putri Bapak Romli Hidayat <br />& Ibu Siti Zainah Zakiyah (Ipih)
+				  xxxxx <br />& xxxxxx
 				</p>
 			  </div>
 			</div>
@@ -47,7 +47,7 @@ function HelloSection({ isInvitation }) {
 				<img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
 			  </div>
 			  <div className="desc-bride">
-				<h3 className="main-font">Miftahussalam</h3>
+				<h3 className="main-font">Sergio</h3>
 				<p className="parent-name">
 				  Putra Bapak Atang <br />& Ibu Manah
 				</p>
